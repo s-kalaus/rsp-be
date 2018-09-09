@@ -1,6 +1,6 @@
 # rsp-be
 
-Backend part of Rock Scissors Paper game.
+Backend part of Rock, Scissors, Paper game.
 
 [![travis ci](https://travis-ci.org/s-kalaus/rsp-be.svg?branch=master)](https://travis-ci.org/s-kalaus/rsp-be) [![npm version](https://badge.fury.io/js/rsp-be.svg)](https://badge.fury.io/js/rsp-be)
 
