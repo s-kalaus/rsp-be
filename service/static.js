@@ -28,6 +28,8 @@ class StaticService extends BaseService {
         return reject(err);
       }
 
+      this.app.logger.info('Schema fetched', gameName);
+
       resolve(this.games[gameName]);
     });
   }
