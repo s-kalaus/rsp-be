@@ -10,8 +10,14 @@ const GameService = require('./game');
 const UserService = require('./user');
 const StaticService = require('./static');
 
+/**
+ * App Service
+ */
 class AppService {
 
+  /**
+   * Main init method
+   */
   init() {
 
     this.initConfig();
@@ -20,6 +26,9 @@ class AppService {
     this.initService();
   }
 
+  /**
+   * Initialize config
+   */
   initConfig() {
 
     this.env = process.env.NODE_ENV || 'production';
@@ -27,11 +36,17 @@ class AppService {
     this.config = require('../config/' + this.env);
   }
 
+  /**
+   * Initialize logger
+   */
   initLogger() {
 
     this.logger = new LoggerService(this);
   }
 
+  /**
+   * Initialize server
+   */
   initServer() {
 
     this.server = express();
@@ -45,6 +60,9 @@ class AppService {
       this.logger.info('Listening on port 3000'));
   }
 
+  /**
+   * Initialize routing
+   */
   initRouting() {
 
     new StaticController(this).init();
@@ -52,6 +70,9 @@ class AppService {
     new GameController(this).init();
   }
 
+  /**
+   * Initialize services
+   */
   initService() {
 
     this.gameService = new GameService(this);
@@ -59,6 +80,14 @@ class AppService {
     this.staticService = new StaticService(this);
   }
 
+  /**
+   * Auth middleware
+   *
+   * @param {Object} req Express request object
+   * @param {Object} res Express response object
+   *
+   * @returns {Promise}
+   */
   checkAuth(req, res) {
 
     return new Promise((resolve) => {
@@ -67,7 +96,7 @@ class AppService {
 
       if (!session || !this.userService.users[session]) {
 
-        const err = new Error('User Not Found: ' + session)
+        const err = new Error('User Not Found: ' + session);
 
         this.logger.error(err);
 
@@ -78,6 +107,12 @@ class AppService {
     });
   }
 
+  /**
+   * Main response handler
+   *
+   * @param {Object} res Express response object
+   * @param {Object} promise response promise
+   */
   apiResponse(res, promise) {
 
     promise
@@ -85,6 +120,12 @@ class AppService {
       .catch((err) => this.apiError(res, err));
   }
 
+  /**
+   * On success response handler
+   *
+   * @param {Object} res Express response object
+   * @param {Object} result Api result response
+   */
   apiSuccess(res, result) {
 
     res.json({
@@ -93,6 +134,12 @@ class AppService {
     });
   }
 
+  /**
+   * On error response handler
+   *
+   * @param {Object} res Express response object
+   * @param {Error} err Error object
+   */
   apiError(res, err) {
 
     res.status(500).json({
@@ -100,6 +147,6 @@ class AppService {
       message: this.config.apiExposeError ? err.message : 'API Error'
     });
   }
-};
+}
 
 module.exports = AppService;

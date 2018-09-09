@@ -1,9 +1,17 @@
-/* global Promise */
+/** global Promise */
 
 const BaseService = require('./base');
 
+/**
+ * Static Service
+ */
 class StaticService extends BaseService {
 
+  /**
+   * Constructor
+   *
+   * @param {Object} app Application reference
+   */
   constructor(app) {
 
     super(app);
@@ -13,6 +21,11 @@ class StaticService extends BaseService {
     };
   }
 
+  /**
+   * Get game schema
+   *
+   * @param {Object} params Request params
+   */
   getGameSchema(params) {
 
     const gameName = params.gameName;
@@ -33,6 +46,6 @@ class StaticService extends BaseService {
       resolve(this.games[gameName]);
     });
   }
-};
+}
 
 module.exports = StaticService;

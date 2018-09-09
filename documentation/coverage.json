@@ -1,0 +1,102 @@
+{
+  "coverage": "41.42%",
+  "expectCount": 70,
+  "actualCount": 29,
+  "files": {
+    "service/app.js": {
+      "expectCount": 28,
+      "actualCount": 11,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        34,
+        36,
+        44,
+        52,
+        78,
+        79,
+        80
+      ]
+    },
+    "service/base.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        13
+      ]
+    },
+    "service/game.js": {
+      "expectCount": 12,
+      "actualCount": 6,
+      "undocumentLines": [
+        1,
+        2,
+        18,
+        19,
+        21,
+        23
+      ]
+    },
+    "service/game.spec.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        7
+      ]
+    },
+    "service/logger.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "service/static.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        19
+      ]
+    },
+    "service/static.spec.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        7,
+        8
+      ]
+    },
+    "service/user.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        1,
+        17
+      ]
+    },
+    "service/user.spec.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  }
+}

@@ -1,7 +1,15 @@
 const BaseService = require('./base');
 
+/**
+ * User Service
+ */
 class UserService extends BaseService {
 
+  /**
+   * Constructor
+   *
+   * @param {Object} app Application reference
+   */
   constructor(app) {
 
     super(app);
@@ -9,9 +17,14 @@ class UserService extends BaseService {
     this.users = {};
   }
 
+  /**
+   * Add new user
+   *
+   * @param {Object} params User data
+   */
   addUser(params) {
 
-    const username = String(params.username || '').replace(/[\<\>\$\"\']/g, '').slice(0, 20) || 'Noname';
+    const username = String(params.username || '').replace(/[<>$"']/g, '').slice(0, 20) || 'Noname';
 
     return new Promise((resolve) => {
 
@@ -27,6 +40,6 @@ class UserService extends BaseService {
       resolve(user);
     });
   }
-};
+}
 
 module.exports = UserService;

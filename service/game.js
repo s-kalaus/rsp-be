@@ -1,8 +1,16 @@
 const BaseService = require('./base');
 const RandomAi = require('../ai/random');
 
+/**
+ * Game Service
+ */
 class GameService extends BaseService {
 
+  /**
+   * Constructor
+   *
+   * @param {Object} app Application reference
+   */
   constructor(app) {
 
     super(app);
@@ -17,6 +25,13 @@ class GameService extends BaseService {
     };
   }
 
+  /**
+   * Add new game
+   *
+   * @param {Object} params user data
+   *
+   * @returns {Promise}
+   */
   addGame(params) {
 
     const gameType = params.gameType;
@@ -39,6 +54,13 @@ class GameService extends BaseService {
     });
   }
 
+  /**
+   * Add new round
+   *
+   * @param {Object} params round data
+   *
+   * @returns {Promise}
+   */
   addRound(params) {
 
     const gameId = params.gameId;
@@ -75,7 +97,17 @@ class GameService extends BaseService {
     });
   }
 
-  makeDecision(game, round, party, choice) {
+  /**
+   * Make desicion
+   *
+   * @param {Object} game round data
+   * @param {Object} round round data
+   * @param {Number} party Party index
+   * @param {Number | undefined} choice Choice index
+   *
+   * @returns {Number}
+   */
+  makeDecision(game, round, party, choice = undefined) {
 
     if (choice !== undefined && game.gameType === 'pvc') {
       return choice;
@@ -90,6 +122,14 @@ class GameService extends BaseService {
     return decision;
   }
 
+  /**
+   * Figure out winner of round
+   *
+   * @param {Object} game round data
+   * @param {Object} round round data
+   *
+   * @returns {Number}
+   */
   getWinner(game, round) {
 
     const gameSchema = this.app.staticService.games[game.gameName];
@@ -105,6 +145,6 @@ class GameService extends BaseService {
 
     return winner;
   }
-};
+}
 
 module.exports = GameService;

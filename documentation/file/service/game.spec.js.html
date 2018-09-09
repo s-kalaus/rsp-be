@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">service/game.spec.js | rsp-be</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Backend part of Rock Scissors Paper game"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="rsp-be"><meta property="twitter:description" content="Backend part of Rock Scissors Paper game"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">service/game.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const chai = require(&apos;chai&apos;);
+const spies = require(&apos;chai-spies&apos;);
+const expect = chai.expect;
+
+chai.use(spies);
+
+const GameService = require(&apos;./game&apos;);
+
+describe(&apos;GameService&apos;, function() {
+  let app;
+  let inst;
+
+  beforeEach(function () {
+    app = {
+      staticService: {
+        games: {
+          rsp: require(&apos;../static/rsp&apos;)
+        }
+      },
+      logger: {
+        info: chai.spy(() =&gt; {}),
+        error: chai.spy(() =&gt; {})
+      }
+    };
+    inst = new GameService(app);
+  });
+
+  it(&apos;should exist and have default&apos;, function() {
+    expect(inst).to.be.a(&apos;object&apos;);
+    expect(inst.app).to.equal(app);
+    expect(inst.gameId).to.equal(1);
+    expect(inst.roundId).to.equal(1);
+    expect(inst.games).to.eql({});
+    expect(Object.keys(inst.ais)).to.eql([&apos;random&apos;]);
+  });
+
+  describe(&apos;Function: addGame&apos;, function() {
+    it(&apos;should exist&apos;, function() {
+      expect(inst.addGame).to.be.a(&apos;function&apos;);
+    });
+    it(&apos;should return promise&apos;, function() {
+      expect(inst.addGame({gameType: &apos;pvc&apos;, gameName: &apos;rsp&apos;})).to.be.a(&apos;promise&apos;);
+    });
+    it(&apos;should resolve game&apos;, function() {
+      inst.addGame({gameType: &apos;pvc&apos;, gameName: &apos;rsp&apos;}).then((game) =&gt;
+        expect(game).to.eql({
+          gameId: 1,
+          gameType: &apos;pvc&apos;,
+          gameName: &apos;rsp&apos;,
+          rounds: []
+        }));
+    });
+  });
+
+  describe(&apos;Function: addRound&apos;, function() {
+    beforeEach(function () {
+      inst.games[1] = {gameName: &apos;rsp&apos;, rounds: []};
+    });
+    it(&apos;should exist&apos;, function() {
+      expect(inst.addRound).to.be.a(&apos;function&apos;);
+    });
+    it(&apos;should return promise&apos;, function() {
+      expect(inst.addRound({gameId: 1, choice: 1})).to.be.a(&apos;promise&apos;);
+    });
+    it(&apos;should resolve round&apos;, function() {
+      inst.addRound({gameId: 1, choice: 1}).then((round) =&gt;
+        expect(round.roundId).to.equal(1));
+    });
+    it(&apos;should react on error&apos;, function() {
+      inst.addRound({gameId: 2}).catch((err) =&gt;
+        expect(err.message).to.equal(&apos;Game Not Found: 2&apos;));
+    });
+  });
+
+  describe(&apos;Function: makeDecision&apos;, function() {
+    it(&apos;should exist&apos;, function() {
+      expect(inst.makeDecision).to.be.a(&apos;function&apos;);
+    });
+    it(&apos;should return choice if we are in pvc mode&apos;, function() {
+      expect(inst.makeDecision({gameId: 1, gameName: &apos;rsp&apos;, gameType: &apos;pvc&apos;}, {}, 1, 1)).to.equal(1);
+    });
+    it(&apos;should call makeDecision&apos;, function() {
+      chai.spy.on(inst.ais.random, &apos;makeDecision&apos;);
+      inst.makeDecision({gameId: 1, gameName: &apos;rsp&apos;}, {}, 1);
+      expect(inst.ais.random.makeDecision).to.have.been.called.with({gameId: 1, gameName: &apos;rsp&apos;}, {}, 1);
+    });
+    it(&apos;should return proper decision&apos;, function() {
+      chai.spy.on(inst.ais.random, &apos;makeDecision&apos;, function () { return 1; });
+      expect(inst.makeDecision({gameId: 1, gameName: &apos;rsp&apos;}, {}, 1)).to.equal(1);
+    });
+  });
+
+  describe(&apos;Function: getWinner&apos;, function() {
+    it(&apos;should exist&apos;, function() {
+      expect(inst.getWinner).to.be.a(&apos;function&apos;);
+    });
+    it(&apos;should return winner for 0-0&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 0, partyChoice1: 0})).to.equal(null);
+    });
+    it(&apos;should return winner for 0-1&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 0, partyChoice1: 1})).to.equal(0);
+    });
+    it(&apos;should return winner for 0-2&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 0, partyChoice1: 2})).to.equal(1);
+    });
+    it(&apos;should return winner for 1-1&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 1, partyChoice1: 1})).to.equal(null);
+    });
+    it(&apos;should return winner for 1-0&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 1, partyChoice1: 0})).to.equal(1);
+    });
+    it(&apos;should return winner for 1-2&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 1, partyChoice1: 2})).to.equal(0);
+    });
+    it(&apos;should return winner for 2-2&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 2, partyChoice1: 2})).to.equal(null);
+    });
+    it(&apos;should return winner for 2-0&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 2, partyChoice1: 0})).to.equal(0);
+    });
+    it(&apos;should return winner for 2-1&apos;, function() {
+      expect(inst.getWinner({gameId: 1, gameName: &apos;rsp&apos;}, {partyChoice0: 2, partyChoice1: 1})).to.equal(1);
+    });
+  });
+});</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

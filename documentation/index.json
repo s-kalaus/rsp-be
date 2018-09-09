@@ -1,0 +1,2259 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "service/.external-ecmascript.js",
+    "static": true,
+    "longname": "service/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "service/app.js",
+    "content": "const express = require('express');\nconst cors = require('cors');\nconst bodyParser = require('body-parser');\n\nconst LoggerService = require('./logger');\nconst StaticController = require('../controller/static');\nconst UserController = require('../controller/user');\nconst GameController = require('../controller/game');\nconst GameService = require('./game');\nconst UserService = require('./user');\nconst StaticService = require('./static');\n\n/**\n * App Service\n */\nclass AppService {\n\n  /**\n   * Main init method\n   */\n  init() {\n\n    this.initConfig();\n    this.initLogger();\n    this.initServer();\n    this.initService();\n  }\n\n  /**\n   * Initialize config\n   */\n  initConfig() {\n\n    this.env = process.env.NODE_ENV || 'production';\n\n    this.config = require('../config/' + this.env);\n  }\n\n  /**\n   * Initialize logger\n   */\n  initLogger() {\n\n    this.logger = new LoggerService(this);\n  }\n\n  /**\n   * Initialize server\n   */\n  initServer() {\n\n    this.server = express();\n\n    this.server.use(cors());\n    this.server.use(bodyParser.json());\n\n    this.initRouting();\n\n    this.server.listen(this.config.port, () =>\n      this.logger.info('Listening on port 3000'));\n  }\n\n  /**\n   * Initialize routing\n   */\n  initRouting() {\n\n    new StaticController(this).init();\n    new UserController(this).init();\n    new GameController(this).init();\n  }\n\n  /**\n   * Initialize services\n   */\n  initService() {\n\n    this.gameService = new GameService(this);\n    this.userService = new UserService(this);\n    this.staticService = new StaticService(this);\n  }\n\n  /**\n   * Auth middleware\n   *\n   * @param {Object} req Express request object\n   * @param {Object} res Express response object\n   *\n   * @returns {Promise}\n   */\n  checkAuth(req, res) {\n\n    return new Promise((resolve) => {\n\n      const session = req.headers.authorization;\n\n      if (!session || !this.userService.users[session]) {\n\n        const err = new Error('User Not Found: ' + session);\n\n        this.logger.error(err);\n\n        return this.apiError(res, err);\n      }\n\n      resolve();\n    });\n  }\n\n  /**\n   * Main response handler\n   *\n   * @param {Object} res Express response object\n   * @param {Object} promise response promise\n   */\n  apiResponse(res, promise) {\n\n    promise\n      .then((result) => this.apiSuccess(res, result))\n      .catch((err) => this.apiError(res, err));\n  }\n\n  /**\n   * On success response handler\n   *\n   * @param {Object} res Express response object\n   * @param {Object} result Api result response\n   */\n  apiSuccess(res, result) {\n\n    res.json({\n      success: true,\n      data: result\n    });\n  }\n\n  /**\n   * On error response handler\n   *\n   * @param {Object} res Express response object\n   * @param {Error} err Error object\n   */\n  apiError(res, err) {\n\n    res.status(500).json({\n      success: false,\n      message: this.config.apiExposeError ? err.message : 'API Error'\n    });\n  }\n}\n\nmodule.exports = AppService;\n",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/app.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "cors",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~cors",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "bodyParser",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~bodyParser",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "LoggerService",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~LoggerService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "StaticController",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~StaticController",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "UserController",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~UserController",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "GameController",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~GameController",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "GameService",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~GameService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "UserService",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~UserService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "StaticService",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~StaticService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "class",
+    "name": "AppService",
+    "memberof": "service/app.js",
+    "static": true,
+    "longname": "service/app.js~AppService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/app.js",
+    "importStyle": null,
+    "description": "App Service",
+    "lineNumber": 16,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "init",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#init",
+    "access": "public",
+    "description": "Main init method",
+    "lineNumber": 21,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "initConfig",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#initConfig",
+    "access": "public",
+    "description": "Initialize config",
+    "lineNumber": 32,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "env",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#env",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "name": "config",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#config",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "initLogger",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#initLogger",
+    "access": "public",
+    "description": "Initialize logger",
+    "lineNumber": 42,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "logger",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#logger",
+    "access": "public",
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "initServer",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#initServer",
+    "access": "public",
+    "description": "Initialize server",
+    "lineNumber": 50,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "member",
+    "name": "server",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#server",
+    "access": "public",
+    "description": null,
+    "lineNumber": 52,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "initRouting",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#initRouting",
+    "access": "public",
+    "description": "Initialize routing",
+    "lineNumber": 66,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "initService",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#initService",
+    "access": "public",
+    "description": "Initialize services",
+    "lineNumber": 76,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 70,
+    "kind": "member",
+    "name": "gameService",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#gameService",
+    "access": "public",
+    "description": null,
+    "lineNumber": 78,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "userService",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#userService",
+    "access": "public",
+    "description": null,
+    "lineNumber": 79,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "staticService",
+    "memberof": "service/app.js~AppService",
+    "static": false,
+    "longname": "service/app.js~AppService#staticService",
+    "access": "public",
+    "description": null,
+    "lineNumber": 80,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "checkAuth",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#checkAuth",
+    "access": "public",
+    "description": "Auth middleware",
+    "lineNumber": 91,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "apiResponse",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#apiResponse",
+    "access": "public",
+    "description": "Main response handler",
+    "lineNumber": 116,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "promise",
+        "description": "response promise"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "apiSuccess",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#apiSuccess",
+    "access": "public",
+    "description": "On success response handler",
+    "lineNumber": 129,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "result",
+        "description": "Api result response"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "apiError",
+    "memberof": "service/app.js~AppService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/app.js~AppService#apiError",
+    "access": "public",
+    "description": "On error response handler",
+    "lineNumber": 143,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "err",
+        "description": "Error object"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "service/base.js",
+    "content": "/**\n * Base class for services\n */\nclass BaseService {\n\n  /**\n   * Constructor\n   *\n   * @param {Object} app Application reference\n   */\n  constructor(app) {\n\n    this.app = app;\n  }\n}\n\nmodule.exports = BaseService;\n",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/base.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "class",
+    "name": "BaseService",
+    "memberof": "service/base.js",
+    "static": true,
+    "longname": "service/base.js~BaseService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/base.js",
+    "importStyle": null,
+    "description": "Base class for services",
+    "lineNumber": 4,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "service/base.js~BaseService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/base.js~BaseService#constructor",
+    "access": "public",
+    "description": "Constructor",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "app",
+        "description": "Application reference"
+      }
+    ]
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "app",
+    "memberof": "service/base.js~BaseService",
+    "static": false,
+    "longname": "service/base.js~BaseService#app",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "service/game.js",
+    "content": "const BaseService = require('./base');\nconst RandomAi = require('../ai/random');\n\n/**\n * Game Service\n */\nclass GameService extends BaseService {\n\n  /**\n   * Constructor\n   *\n   * @param {Object} app Application reference\n   */\n  constructor(app) {\n\n    super(app);\n\n    this.gameId = 1;\n    this.roundId = 1;\n\n    this.games = {};\n\n    this.ais = {\n      random: new RandomAi(app)\n    };\n  }\n\n  /**\n   * Add new game\n   *\n   * @param {Object} params user data\n   *\n   * @returns {Promise}\n   */\n  addGame(params) {\n\n    const gameType = params.gameType;\n    const gameName = params.gameName;\n\n    return new Promise((resolve) => {\n\n      const game = {\n        gameId: this.gameId++,\n        gameType,\n        gameName,\n        rounds: []\n      };\n\n      this.games[game.gameId] = game;\n\n      this.app.logger.info('Game added', game.gameId);\n\n      resolve(game);\n    });\n  }\n\n  /**\n   * Add new round\n   *\n   * @param {Object} params round data\n   *\n   * @returns {Promise}\n   */\n  addRound(params) {\n\n    const gameId = params.gameId;\n    const choice = params.choice;\n\n    return new Promise((resolve, reject) => {\n\n      const game = this.games[gameId];\n\n      if (!game) {\n\n        const err = new Error('Game Not Found: ' + gameId);\n\n        this.app.logger.error(err);\n\n        return reject(err);\n      }\n\n      const round = {\n        roundId: this.roundId++\n      };\n\n      round.partyChoice0 = this.makeDecision(game, round, 0, choice);\n      round.partyChoice1 = this.makeDecision(game, round, 1);\n      round.winner = this.getWinner(game, round);\n\n      game.rounds.push(round);\n\n      game.rounds.splice(0, game.rounds.length - 5);\n\n      this.app.logger.info('Round added', game.gameId, round.roundId);\n\n      resolve(round);\n    });\n  }\n\n  /**\n   * Make desicion\n   *\n   * @param {Object} game round data\n   * @param {Object} round round data\n   * @param {Number} party Party index\n   * @param {Number | undefined} choice Choice index\n   *\n   * @returns {Number}\n   */\n  makeDecision(game, round, party, choice = undefined) {\n\n    if (choice !== undefined && game.gameType === 'pvc') {\n      return choice;\n    }\n\n    const gameSchema = this.app.staticService.games[game.gameName];\n\n    const decision = this.ais[gameSchema.ai[party]].makeDecision(game, round, party);\n\n    this.app.logger.info('Decision made', game.gameId, round.roundId, party, decision);\n\n    return decision;\n  }\n\n  /**\n   * Figure out winner of round\n   *\n   * @param {Object} game round data\n   * @param {Object} round round data\n   *\n   * @returns {Number}\n   */\n  getWinner(game, round) {\n\n    const gameSchema = this.app.staticService.games[game.gameName];\n    let winner = null;\n\n    if (gameSchema.objects[round.partyChoice0].win.indexOf(round.partyChoice1) !== -1) {\n      winner = 0;\n    } else if (gameSchema.objects[round.partyChoice1].win.indexOf(round.partyChoice0) !== -1) {\n      winner = 1;\n    }\n\n    this.app.logger.info('Winner determined', game.gameId, round.roundId, winner);\n\n    return winner;\n  }\n}\n\nmodule.exports = GameService;\n",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/game.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "BaseService",
+    "memberof": "service/game.js",
+    "static": true,
+    "longname": "service/game.js~BaseService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "RandomAi",
+    "memberof": "service/game.js",
+    "static": true,
+    "longname": "service/game.js~RandomAi",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "class",
+    "name": "GameService",
+    "memberof": "service/game.js",
+    "static": true,
+    "longname": "service/game.js~GameService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.js",
+    "importStyle": null,
+    "description": "Game Service",
+    "lineNumber": 7,
+    "interface": false,
+    "extends": [
+      "BaseService"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "service/game.js~GameService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/game.js~GameService#constructor",
+    "access": "public",
+    "description": "Constructor",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "app",
+        "description": "Application reference"
+      }
+    ]
+  },
+  {
+    "__docId__": 86,
+    "kind": "member",
+    "name": "gameId",
+    "memberof": "service/game.js~GameService",
+    "static": false,
+    "longname": "service/game.js~GameService#gameId",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "member",
+    "name": "roundId",
+    "memberof": "service/game.js~GameService",
+    "static": false,
+    "longname": "service/game.js~GameService#roundId",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "member",
+    "name": "games",
+    "memberof": "service/game.js~GameService",
+    "static": false,
+    "longname": "service/game.js~GameService#games",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "member",
+    "name": "ais",
+    "memberof": "service/game.js~GameService",
+    "static": false,
+    "longname": "service/game.js~GameService#ais",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"random\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "method",
+    "name": "addGame",
+    "memberof": "service/game.js~GameService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/game.js~GameService#addGame",
+    "access": "public",
+    "description": "Add new game",
+    "lineNumber": 35,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "params",
+        "description": "user data"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "addRound",
+    "memberof": "service/game.js~GameService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/game.js~GameService#addRound",
+    "access": "public",
+    "description": "Add new round",
+    "lineNumber": 64,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "params",
+        "description": "round data"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "makeDecision",
+    "memberof": "service/game.js~GameService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/game.js~GameService#makeDecision",
+    "access": "public",
+    "description": "Make desicion",
+    "lineNumber": 110,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Number}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "game",
+        "description": "round data"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "round",
+        "description": "round data"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "party",
+        "description": "Party index"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number ",
+          " undefined"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "choice",
+        "description": "Choice index"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Number"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "method",
+    "name": "getWinner",
+    "memberof": "service/game.js~GameService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/game.js~GameService#getWinner",
+    "access": "public",
+    "description": "Figure out winner of round",
+    "lineNumber": 133,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Number}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "game",
+        "description": "round data"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "round",
+        "description": "round data"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Number"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "service/game.spec.js",
+    "content": "const chai = require('chai');\nconst spies = require('chai-spies');\nconst expect = chai.expect;\n\nchai.use(spies);\n\nconst GameService = require('./game');\n\ndescribe('GameService', function() {\n  let app;\n  let inst;\n\n  beforeEach(function () {\n    app = {\n      staticService: {\n        games: {\n          rsp: require('../static/rsp')\n        }\n      },\n      logger: {\n        info: chai.spy(() => {}),\n        error: chai.spy(() => {})\n      }\n    };\n    inst = new GameService(app);\n  });\n\n  it('should exist and have default', function() {\n    expect(inst).to.be.a('object');\n    expect(inst.app).to.equal(app);\n    expect(inst.gameId).to.equal(1);\n    expect(inst.roundId).to.equal(1);\n    expect(inst.games).to.eql({});\n    expect(Object.keys(inst.ais)).to.eql(['random']);\n  });\n\n  describe('Function: addGame', function() {\n    it('should exist', function() {\n      expect(inst.addGame).to.be.a('function');\n    });\n    it('should return promise', function() {\n      expect(inst.addGame({gameType: 'pvc', gameName: 'rsp'})).to.be.a('promise');\n    });\n    it('should resolve game', function() {\n      inst.addGame({gameType: 'pvc', gameName: 'rsp'}).then((game) =>\n        expect(game).to.eql({\n          gameId: 1,\n          gameType: 'pvc',\n          gameName: 'rsp',\n          rounds: []\n        }));\n    });\n  });\n\n  describe('Function: addRound', function() {\n    beforeEach(function () {\n      inst.games[1] = {gameName: 'rsp', rounds: []};\n    });\n    it('should exist', function() {\n      expect(inst.addRound).to.be.a('function');\n    });\n    it('should return promise', function() {\n      expect(inst.addRound({gameId: 1, choice: 1})).to.be.a('promise');\n    });\n    it('should resolve round', function() {\n      inst.addRound({gameId: 1, choice: 1}).then((round) =>\n        expect(round.roundId).to.equal(1));\n    });\n    it('should react on error', function() {\n      inst.addRound({gameId: 2}).catch((err) =>\n        expect(err.message).to.equal('Game Not Found: 2'));\n    });\n  });\n\n  describe('Function: makeDecision', function() {\n    it('should exist', function() {\n      expect(inst.makeDecision).to.be.a('function');\n    });\n    it('should return choice if we are in pvc mode', function() {\n      expect(inst.makeDecision({gameId: 1, gameName: 'rsp', gameType: 'pvc'}, {}, 1, 1)).to.equal(1);\n    });\n    it('should call makeDecision', function() {\n      chai.spy.on(inst.ais.random, 'makeDecision');\n      inst.makeDecision({gameId: 1, gameName: 'rsp'}, {}, 1);\n      expect(inst.ais.random.makeDecision).to.have.been.called.with({gameId: 1, gameName: 'rsp'}, {}, 1);\n    });\n    it('should return proper decision', function() {\n      chai.spy.on(inst.ais.random, 'makeDecision', function () { return 1; });\n      expect(inst.makeDecision({gameId: 1, gameName: 'rsp'}, {}, 1)).to.equal(1);\n    });\n  });\n\n  describe('Function: getWinner', function() {\n    it('should exist', function() {\n      expect(inst.getWinner).to.be.a('function');\n    });\n    it('should return winner for 0-0', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 0, partyChoice1: 0})).to.equal(null);\n    });\n    it('should return winner for 0-1', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 0, partyChoice1: 1})).to.equal(0);\n    });\n    it('should return winner for 0-2', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 0, partyChoice1: 2})).to.equal(1);\n    });\n    it('should return winner for 1-1', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 1, partyChoice1: 1})).to.equal(null);\n    });\n    it('should return winner for 1-0', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 1, partyChoice1: 0})).to.equal(1);\n    });\n    it('should return winner for 1-2', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 1, partyChoice1: 2})).to.equal(0);\n    });\n    it('should return winner for 2-2', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 2, partyChoice1: 2})).to.equal(null);\n    });\n    it('should return winner for 2-0', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 2, partyChoice1: 0})).to.equal(0);\n    });\n    it('should return winner for 2-1', function() {\n      expect(inst.getWinner({gameId: 1, gameName: 'rsp'}, {partyChoice0: 2, partyChoice1: 1})).to.equal(1);\n    });\n  });\n});",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/game.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "chai",
+    "memberof": "service/game.spec.js",
+    "static": true,
+    "longname": "service/game.spec.js~chai",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "spies",
+    "memberof": "service/game.spec.js",
+    "static": true,
+    "longname": "service/game.spec.js~spies",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "expect",
+    "memberof": "service/game.spec.js",
+    "static": true,
+    "longname": "service/game.spec.js~expect",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "GameService",
+    "memberof": "service/game.spec.js",
+    "static": true,
+    "longname": "service/game.spec.js~GameService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/game.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "service/logger.js",
+    "content": "const BaseService = require('./base');\n\n/**\n * Logger class\n */\nclass LoggerService extends BaseService {\n\n  /**\n   * Info message\n   */\n  info() {\n\n    if (!this.app.config.logToConsole.info) {\n      return;\n    }\n\n    const params = Array.from(arguments);\n\n    params.unshift(new Date().toISOString());\n\n    // eslint-disable-next-line no-console\n    console.log.apply(null, params);\n  }\n\n  /**\n   * Error message\n   *\n   * @param {Error} err Error object\n   */\n  error(err) {\n\n    if (!this.app.config.logToConsole.error) {\n      return;\n    }\n\n    // eslint-disable-next-line no-console\n    console.error(new Date().toISOString(), err);\n  }\n}\n\nmodule.exports = LoggerService;\n",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/logger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "name": "BaseService",
+    "memberof": "service/logger.js",
+    "static": true,
+    "longname": "service/logger.js~BaseService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/logger.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "class",
+    "name": "LoggerService",
+    "memberof": "service/logger.js",
+    "static": true,
+    "longname": "service/logger.js~LoggerService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/logger.js",
+    "importStyle": null,
+    "description": "Logger class",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "BaseService"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "method",
+    "name": "info",
+    "memberof": "service/logger.js~LoggerService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/logger.js~LoggerService#info",
+    "access": "public",
+    "description": "Info message",
+    "lineNumber": 11,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 103,
+    "kind": "method",
+    "name": "error",
+    "memberof": "service/logger.js~LoggerService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/logger.js~LoggerService#error",
+    "access": "public",
+    "description": "Error message",
+    "lineNumber": 30,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "err",
+        "description": "Error object"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "name": "service/static.js",
+    "content": "/** global Promise */\n\nconst BaseService = require('./base');\n\n/**\n * Static Service\n */\nclass StaticService extends BaseService {\n\n  /**\n   * Constructor\n   *\n   * @param {Object} app Application reference\n   */\n  constructor(app) {\n\n    super(app);\n\n    this.games = {\n      rsp: require('../static/rsp')\n    };\n  }\n\n  /**\n   * Get game schema\n   *\n   * @param {Object} params Request params\n   */\n  getGameSchema(params) {\n\n    const gameName = params.gameName;\n\n    return new Promise((resolve, reject) => {\n\n      if (!this.games[gameName]) {\n\n        const err = new Error('Game Schema Not Found: ' + gameName);\n\n        this.app.logger.error(err);\n\n        return reject(err);\n      }\n\n      this.app.logger.info('Schema fetched', gameName);\n\n      resolve(this.games[gameName]);\n    });\n  }\n}\n\nmodule.exports = StaticService;\n",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/static.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "name": "BaseService",
+    "memberof": "service/static.js",
+    "static": true,
+    "longname": "service/static.js~BaseService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.js",
+    "importStyle": null,
+    "description": "global Promise",
+    "lineNumber": 3,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "class",
+    "name": "StaticService",
+    "memberof": "service/static.js",
+    "static": true,
+    "longname": "service/static.js~StaticService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.js",
+    "importStyle": null,
+    "description": "Static Service",
+    "lineNumber": 8,
+    "interface": false,
+    "extends": [
+      "BaseService"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "service/static.js~StaticService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/static.js~StaticService#constructor",
+    "access": "public",
+    "description": "Constructor",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "app",
+        "description": "Application reference"
+      }
+    ]
+  },
+  {
+    "__docId__": 108,
+    "kind": "member",
+    "name": "games",
+    "memberof": "service/static.js~StaticService",
+    "static": false,
+    "longname": "service/static.js~StaticService#games",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"rsp\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "method",
+    "name": "getGameSchema",
+    "memberof": "service/static.js~StaticService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/static.js~StaticService#getGameSchema",
+    "access": "public",
+    "description": "Get game schema",
+    "lineNumber": 29,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "params",
+        "description": "Request params"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "file",
+    "name": "service/static.spec.js",
+    "content": "const chai = require('chai');\nconst spies = require('chai-spies');\nconst expect = chai.expect;\n\nchai.use(spies);\n\nconst rsp = require('../static/rsp');\nconst StaticService = require('./static');\n\ndescribe('StaticService', function() {\n  let app;\n  let inst;\n\n  beforeEach(function () {\n    app = {\n      logger: {\n        info: chai.spy(() => {}),\n        error: chai.spy(() => {})\n      }\n    };\n    inst = new StaticService(app);\n  });\n\n  it('should exist and have default', function() {\n    expect(inst).to.be.a('object');\n    expect(inst.app).to.equal(app);\n    expect(inst.games).to.eql({rsp});\n  });\n\n  describe('Function: getGameSchema', function() {\n    it('should exist', function() {\n      expect(inst.getGameSchema).to.be.a('function');\n    });\n    it('should return promise', function() {\n      expect(inst.getGameSchema({gameName: 'rsp'})).to.be.a('promise');\n    });\n    it('should resolve schema', function() {\n      inst.getGameSchema({gameName: 'rsp'}).then((schema) =>\n        expect(schema).to.eql(rsp));\n    });\n    it('should react on error', function() {\n      inst.getGameSchema({gameName: 'test'}).catch((err) =>\n        expect(err.message).to.equal('Game Schema Not Found: test'));\n    });\n  });\n});",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/static.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 111,
+    "kind": "variable",
+    "name": "chai",
+    "memberof": "service/static.spec.js",
+    "static": true,
+    "longname": "service/static.spec.js~chai",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "spies",
+    "memberof": "service/static.spec.js",
+    "static": true,
+    "longname": "service/static.spec.js~spies",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "name": "expect",
+    "memberof": "service/static.spec.js",
+    "static": true,
+    "longname": "service/static.spec.js~expect",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "variable",
+    "name": "rsp",
+    "memberof": "service/static.spec.js",
+    "static": true,
+    "longname": "service/static.spec.js~rsp",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 115,
+    "kind": "variable",
+    "name": "StaticService",
+    "memberof": "service/static.spec.js",
+    "static": true,
+    "longname": "service/static.spec.js~StaticService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/static.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 116,
+    "kind": "file",
+    "name": "service/user.js",
+    "content": "const BaseService = require('./base');\n\n/**\n * User Service\n */\nclass UserService extends BaseService {\n\n  /**\n   * Constructor\n   *\n   * @param {Object} app Application reference\n   */\n  constructor(app) {\n\n    super(app);\n\n    this.users = {};\n  }\n\n  /**\n   * Add new user\n   *\n   * @param {Object} params User data\n   */\n  addUser(params) {\n\n    const username = String(params.username || '').replace(/[<>$\"']/g, '').slice(0, 20) || 'Noname';\n\n    return new Promise((resolve) => {\n\n      this.app.logger.info('User added', username);\n\n      const user = {\n        sessionId: Math.floor(Math.random() * new Date().getTime()),\n        username\n      };\n\n      this.users[user.sessionId] = user;\n\n      resolve(user);\n    });\n  }\n}\n\nmodule.exports = UserService;\n",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/user.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 117,
+    "kind": "variable",
+    "name": "BaseService",
+    "memberof": "service/user.js",
+    "static": true,
+    "longname": "service/user.js~BaseService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/user.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 118,
+    "kind": "class",
+    "name": "UserService",
+    "memberof": "service/user.js",
+    "static": true,
+    "longname": "service/user.js~UserService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/user.js",
+    "importStyle": null,
+    "description": "User Service",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "BaseService"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 119,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "service/user.js~UserService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/user.js~UserService#constructor",
+    "access": "public",
+    "description": "Constructor",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "app",
+        "description": "Application reference"
+      }
+    ]
+  },
+  {
+    "__docId__": 120,
+    "kind": "member",
+    "name": "users",
+    "memberof": "service/user.js~UserService",
+    "static": false,
+    "longname": "service/user.js~UserService#users",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "method",
+    "name": "addUser",
+    "memberof": "service/user.js~UserService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "service/user.js~UserService#addUser",
+    "access": "public",
+    "description": "Add new user",
+    "lineNumber": 25,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "params",
+        "description": "User data"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "name": "service/user.spec.js",
+    "content": "const chai = require('chai');\nconst spies = require('chai-spies');\nconst expect = chai.expect;\n\nchai.use(spies);\n\nconst UserService = require('./user');\n\ndescribe('UserService', function() {\n  let app;\n  let inst;\n\n  beforeEach(function () {\n    app = {\n      logger: {\n        info: chai.spy(() => {})\n      }\n    };\n    inst = new UserService(app);\n  });\n\n  it('should exist and have default', function() {\n    expect(inst).to.be.a('object');\n    expect(inst.app).to.equal(app);\n    expect(inst.users).to.eql({});\n  });\n\n  describe('Function: addUser', function() {\n    it('should exist', function() {\n      expect(inst.addUser).to.be.a('function');\n    });\n    it('should return promise', function() {\n      expect(inst.addUser({})).to.be.a('promise');\n    });\n    it('should resolve user', function() {\n      inst.addUser({username: 'test'}).then((user) =>\n        expect(user.username).to.equal('test'));\n    });\n    it('should fix username', function() {\n      inst.addUser({username: '<te>st$'}).then((user) =>\n        expect(user.username).to.equal('test'));\n    });\n    it('should fix empty username', function() {\n      inst.addUser({username: ''}).then((user) =>\n        expect(user.username).to.equal('Noname'));\n    });\n  });\n});",
+    "static": true,
+    "longname": "/home/dev/Dropbox/www/rsp-be/service/user.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 123,
+    "kind": "variable",
+    "name": "chai",
+    "memberof": "service/user.spec.js",
+    "static": true,
+    "longname": "service/user.spec.js~chai",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/user.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 124,
+    "kind": "variable",
+    "name": "spies",
+    "memberof": "service/user.spec.js",
+    "static": true,
+    "longname": "service/user.spec.js~spies",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/user.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 125,
+    "kind": "variable",
+    "name": "expect",
+    "memberof": "service/user.spec.js",
+    "static": true,
+    "longname": "service/user.spec.js~expect",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/user.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 126,
+    "kind": "variable",
+    "name": "UserService",
+    "memberof": "service/user.spec.js",
+    "static": true,
+    "longname": "service/user.spec.js~UserService",
+    "access": "public",
+    "export": false,
+    "importPath": "rsp-be/service/user.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "# rsp-be\n\nBackend part of Rock Scissors Paper game.\n\n[![travis ci](https://travis-ci.org/s-kalaus/rsp-be.svg?branch=master)](https://travis-ci.org/s-kalaus/rsp-be) [![npm version](https://badge.fury.io/js/rsp-be.svg)](https://badge.fury.io/js/rsp-be)\n\n[Coverage Report](https://s-kalaus.github.io/rsp-be/coverage/index.html)\n\n[Documentation](https://s-kalaus.github.io/rsp-be/documentation/index.html)\n\n[Demo](https://s-kalaus.github.io/rsp-fe/dist/index.html)\n\n## Development\n* `npm start` - run in development mode (available on `localhost:3000`)\n* `npm run lint` - run linter\n* `npm test` - run mocha unit tests\n* `npm run coverage` - run mocha unit tests & generate coverage report to `/coverage` folder\n* `npm run doc` - generate documentation to `/documentation` folder\n",
+    "longname": "/home/dev/Dropbox/www/rsp-be/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"rsp-be\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Backend part of Rock Scissors Paper game\",\n  \"scripts\": {\n    \"test\": \"mocha --reporter spec **/*.spec.js\",\n    \"coverage\": \"nyc --reporter=html mocha **/*.spec.js\",\n    \"start\": \"node index\",\n    \"doc\": \"./node_modules/.bin/esdoc\",\n    \"lint\": \"./node_modules/.bin/eslint --quiet --config .eslintrc.json service/* ai/* controller/* --ignore-pattern *.spec.js\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+ssh://git@github.com/s-kalaus/rsp-be.git\"\n  },\n  \"keywords\": [\n    \"game\",\n    \"rock\",\n    \"scossors\",\n    \"paper\"\n  ],\n  \"author\": {\n    \"name\": \"Sergey Kalaus\",\n    \"email\": \"sergey@kalaus.ru\",\n    \"url\": \"http://kalaus.ru\"\n  },\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/s-kalaus/rsp-be/issues\"\n  },\n  \"homepage\": \"https://github.com/s-kalaus/rsp-be#readme\",\n  \"dependencies\": {\n    \"body-parser\": \"^1.18.3\",\n    \"cors\": \"^2.8.4\",\n    \"express\": \"^4.16.3\"\n  },\n  \"devDependencies\": {\n    \"chai\": \"^4.1.2\",\n    \"chai-spies\": \"^1.0.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.5.0\",\n    \"mocha\": \"^5.2.0\",\n    \"nyc\": \"^13.0.1\"\n  }\n}\n",
+    "longname": "/home/dev/Dropbox/www/rsp-be/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
