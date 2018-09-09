@@ -4,10 +4,12 @@
   "description": "Backend part of Rock Scissors Paper game",
   "scripts": {
     "test": "mocha --reporter spec **/*.spec.js",
-    "coverage": "nyc --reporter=html mocha **/*.spec.js",
+    "coverage": "./node_modules/.bin/rimraf ./coverage && ./node_modules/.bin/nyc --reporter=html ./node_modules/.bin/mocha **/*.spec.js",
     "start": "node index",
-    "doc": "./node_modules/.bin/esdoc",
-    "lint": "./node_modules/.bin/eslint --quiet --config .eslintrc.json service/* ai/* controller/* --ignore-pattern *.spec.js"
+    "doc": "./node_modules/.bin/rimraf ./documentation && ./node_modules/.bin/esdoc",
+    "jscpd": "./node_modules/.bin/jscpd",
+    "lint": "./node_modules/.bin/eslint --quiet --config .eslintrc.json service/* ai/* controller/* --ignore-pattern *.spec.js",
+    "build-full": "npm run lint && npm run jscpd && npm run coverage && npm run doc"
   },
   "repository": {
     "type": "git",
@@ -41,6 +43,8 @@
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.5.0",
     "mocha": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "jscpd": "^0.6.23",
     "nyc": "^13.0.1"
   }
 }

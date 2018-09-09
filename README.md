@@ -14,5 +14,7 @@ Backend part of Rock, Scissors, Paper game.
 * `npm start` - run in development mode (available on `localhost:3000`)
 * `npm run lint` - run linter
 * `npm test` - run mocha unit tests
+* `npm run jscpd` - copy-paste detection
 * `npm run coverage` - run mocha unit tests & generate coverage report to `/coverage` folder
 * `npm run doc` - generate documentation to `/documentation` folder
+* `npm run build-full` - full tests & build prod shortcut

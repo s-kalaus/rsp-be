@@ -1,0 +1,6 @@
+languages:
+  - javascript
+  - css
+files:
+  - "src/**/*"
+reporter: json
