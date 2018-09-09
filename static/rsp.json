@@ -1,0 +1,27 @@
+{
+  "roundAnimationDuration": 1000,
+  "cvcRoundDelay": 3000,
+  "name": "Rock, Scissors, Paper",
+  "description": "You can play with computer or watch how computers play with each other.",
+  "ai": ["random", "random"],
+  "objects": [
+    {
+      "name": "Rock",
+      "icon": "rsp/icons8-rock-50.png",
+      "image": "rsp/rock.png",
+      "win": [1]
+    },
+    {
+      "name": "Scissors",
+      "icon": "rsp/icons8-scissors-50.png",
+      "image": "rsp/scissors.png",
+      "win": [2]
+    },
+    {
+      "name": "Paper",
+      "icon": "rsp/icons8-paper-50.png",
+      "image": "rsp/paper.png",
+      "win": [0]
+    }
+  ]
+}
